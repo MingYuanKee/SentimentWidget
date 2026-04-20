@@ -1,10 +1,10 @@
 # Mini Sentiment Widget
 
-A small React frontend application built for the WOGAA Engineering frontend technical assessment.
+A small React frontend application built for gathering survey feedback for sentiment analysis. Link to the application hosted on AWS: http://awstrialver-sentimentanalysis-s3.s3-website-ap-southeast-2.amazonaws.com/
 
 ## "frontend only"
 
-This assessment does not require a backend server, database, or API.
+This application does not require a backend server, database, or API.
 
 Everything can be handled in the browser using React state:
 
@@ -52,33 +52,6 @@ The production files will be generated in the `dist/` folder.
 - `CommentBox` renders the textarea
 - `SubmitButton` handles form submission
 - `SummaryPanel` shows total submissions, average rating, and recent comments
-
-## AWS deployment options
-
-### Option 1: AWS Amplify Hosting
-
-This is the easiest option for a React assessment project.
-
-1. Push this project to GitHub
-2. Go to AWS Amplify
-3. Create a new app and connect your GitHub repository
-4. Amplify will detect the Vite app
-5. Use:
-   - Build command: `npm run build`
-   - Output directory: `dist`
-6. Deploy and use the public Amplify URL in your submission
-
-### Option 2: S3 + CloudFront
-
-You can also host the built static files on AWS S3:
-
-1. Run `npm run build`
-2. Create an S3 bucket
-3. Upload the contents of `dist/`
-4. Enable static website hosting
-5. Optionally place CloudFront in front of S3 for a cleaner production setup
-
-For an interview assessment, AWS Amplify is usually faster and easier.
 
 ## Design notes
 
