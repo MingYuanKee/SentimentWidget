@@ -22,20 +22,26 @@ Because submissions are stored only in React state, they will reset when the pag
 - Functional components and hooks
 
 ## Run locally
-
+Clone or download this repository to your machine.
 1. Install dependencies:
 
 ```bash
 npm install
 ```
 
-2. Start the development server:
+2. cd into the folder which contains all files from this repository:
 
 ```bash
 npm run dev
 ```
 
-3. Open the local URL shown in your terminal.
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+4. Open the local URL shown in your terminal.
 
 ## Build for production
 
