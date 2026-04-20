@@ -24,16 +24,17 @@ Because submissions are stored only in React state, they will reset when the pag
 
 ## Run locally
 Clone or download this repository to your machine.
-1. Install dependencies:
 
-```bash
-npm install
-```
-
-2. cd into the folder which contains all files from this repository:
+1. cd into the folder which contains all files from this repository:
 
 ```bash
 npm run dev
+```
+
+2. Install dependencies:
+
+```bash
+npm install
 ```
 
 3. Start the development server:
