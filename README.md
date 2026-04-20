@@ -23,12 +23,15 @@ Because submissions are stored only in React state, they will reset when the pag
 - Functional components and hooks
 
 ## Run locally
-Clone or download this repository to your machine.
+Clone or download this repository to your machine.If you choose to clone, run the below in yuor command prompt:
+```
+git clone https://github.com/MingYuanKee/SentimentWidget.git
+```
 
 1. cd into the folder which contains all files from this repository:
 
 ```bash
-npm run dev
+cd SentimentWidget
 ```
 
 2. Install dependencies:
